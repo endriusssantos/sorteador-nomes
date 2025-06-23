@@ -1,0 +1,86 @@
+main {
+  background: #3f5efb;
+  background: radial-gradient(circle, #3f5efb 0%, #fc466b 100%);
+  width: 100vw;
+  height: 100vh;
+  padding: 0 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 64rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.title {
+  background: radial-gradient(circle, #3f5efb 0%, #fc466b 100%);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.input-border {
+  max-width: 100%;
+  width: 60rem;
+  margin: 2rem 0;
+  background: linear-gradient(90deg, #fc466b, #3f5efb);
+  padding: 0.6rem 0.6rem 0.1rem;
+  border-radius: 1rem;
+}
+
+.input-name {
+  font-size: 1.4rem;
+  width: 100%;
+  height: 30rem;
+  padding: 1rem;
+  outline: none;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+.input-name::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.input-name::-webkit-scrollbar-track {
+  background: #f8f8f8;
+  border-radius: 1rem;
+}
+
+.input-name::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #fc466b, #3f5efb);
+  border-radius: 1rem;
+  border: 2px solid #ffffff;
+}
+
+.input-name::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #e03e5e, #3048be);
+}
+
+.btn-draw {
+  background-color: #3f5efb;
+  color: #ffffff;
+  height: 5.3rem;
+  width: 100%;
+}
+
+.btn-draw:hover {
+  background-color: #3048be;
+}
+
+.result {
+  margin-top: 2rem;
+}

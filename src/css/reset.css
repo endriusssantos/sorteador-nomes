@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+textarea {
+  font-family: "Poppins", sans-serif;
+  resize: none;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  border: none;
+  border-radius: 1.3rem;
+  cursor: pointer;
+  transition: background-color 0.1s ease-out;
+}
