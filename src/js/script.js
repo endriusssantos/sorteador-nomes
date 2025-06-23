@@ -43,7 +43,7 @@ function animateDraw() {
 btnDraw.addEventListener("click", () => {
   const newNames = getNamesFromInput();
 
-  if (newNames.length === 1) {
+  if (newNames.length < 2) {
     result.textContent = "⚠️ Por favor, digite ao menos dois nomes!";
     return;
   }
